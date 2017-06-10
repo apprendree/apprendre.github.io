@@ -130,29 +130,24 @@
 		}
 		/* #### Mobile Phones Portrait #### */
 		
-		@media screen and (max-device-width: 480px) and (orientation: portrait) {
-			p {
-				font-size: 2rem;
-				margin-top: 3rem;
-				font-family: MikadoRegular;
-				src: url("MikadoRegular.otf");
-				font-weight: normal;
-				line-height: 2rem;
-				padding-right: 0.6rem;
-				max-width: 85%;
-			}
-		}
-		/* #### Mobile Phones Landscape #### */
-		
-		@media screen and (max-device-width: 640px) and (orientation: landscape) {
-			p {
-				font-size: 2rem;
-				margin-top: 12px;
-				font-family: MikadoRegular;
-				src: url("MikadoRegular.otf");
-				font-weight: normal;
-				line-height: 10px;
-				padding-right: 0.6rem;
-				max-width: 45%;
-			}
+/* Responsive Styles */
+
+@media(max-width:991px) {
+
+
+p {
+  text-align: left;
+  padding-left: 0;
+  padding-right: 0;
+}
+}
+
+@media(max-width:767px) {
+
+
+p {
+  text-align: left;
+  padding-left: 0;
+  padding-right: 0;
+}
 }
