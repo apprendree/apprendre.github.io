@@ -23,6 +23,8 @@
 
 
 		body {
+						top: 90px;
+
 			margin-left: -200px;
 			background-color: #C1C1C1;
 			color:  #343434;
@@ -32,8 +34,8 @@
 		img {
 			z-index: 1;
 			position: fixed;
-			top: 120px;
-			left: 60px;
+			top: 40px;
+			left: 40px;
 			width: 180px;
 			height: auto;
 			opacity: 1;
