@@ -23,8 +23,7 @@
 
 
 		body {
-			margin-left: 300px;
-			margin-right: 2rem;
+			margin-left: 260px;
 			background-color: #C1C1C1;
 			color:  #343434;
 		}
@@ -32,13 +31,15 @@
 		img {
 			z-index: 1;
 			position: fixed;
-			top: 220px;
-			left: 420px;
+			top: 120px;
+			left: 280px;
 			width: 180px;
 			height: auto;
 			opacity: 1;
+			/*
 			-webkit-transform: translateX(-50%) translateY(-50%);
 			transform: translateX(-50%) translateY(-50%);
+			*/
 		}
 		
 		canvas {
