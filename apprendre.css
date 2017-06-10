@@ -26,6 +26,7 @@
 			margin-left: -80px;
 			background-color: #C1C1C1;
 			color:  #343434;
+						z-index: 4;
 		}
 
 		img {
@@ -88,7 +89,7 @@
 		}
 		
 		p {
-			z-index: 2;
+			z-index: 8;
 			padding-right: 420px; /* este es el que cambia el acá txt */
 			font-family: MikadoRegular;
 			src: url("MikadoRegular.otf");
