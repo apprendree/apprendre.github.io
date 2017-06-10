@@ -90,6 +90,7 @@
 		
 		p {
 			z-index: 8;
+						padding-left: -70px; /* este es el que cambia el acá txt */
 			padding-right: 420px; /* este es el que cambia el acá txt */
 			font-family: MikadoRegular;
 			src: url("MikadoRegular.otf");
