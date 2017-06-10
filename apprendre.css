@@ -23,7 +23,7 @@
 
 
 		body {
-			margin-left: 260px;
+			margin-left: 0px;
 			background-color: #C1C1C1;
 			color:  #343434;
 		}
@@ -89,7 +89,7 @@
 		
 		p {
 			z-index: 2;
-			padding-right: 230px; /* este es el que cambia el acá txt */
+			padding-right: 200px; /* este es el que cambia el acá txt */
 			font-family: MikadoRegular;
 			src: url("MikadoRegular.otf");
 			line-height: 1.25rem;
