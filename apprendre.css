@@ -132,7 +132,7 @@
 		
 /* Responsive Styles */
 
-@media(max-width:991px) {
+@media(max-width:991px) and (max-height: 200px) {
 
 
 p {
