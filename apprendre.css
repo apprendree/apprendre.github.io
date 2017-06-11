@@ -1,26 +1,41 @@
 /* va el dropdown */
 
-		.dropdown {
-    		position: relative;
-    		display: inline-block;
-		}
+.dropbtn {
+    background-color: #00CEE3;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-family: MikadoRegular;
+	src: url("MikadoRegular.otf");
+    border: none;
+    cursor: pointer;
+}
 
-		.dropdown-content {
-    		display: none;
-    		position: absolute;
-    		background-color: rgba(200, 200, 200, 200);
-			width: 100px;
-    		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
-    		padding: 12px 16px;
-    		z-index: 20;
-    		cursor: crosshair;
-    		color:#fff;
-		}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
-		.dropdown:hover .dropdown-content {
-    		display: block;
-			}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(200, 200, 200, 200);
+	width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+    padding: 12px 16px;
+    z-index: 20;
+    color:#fff;
+}
 
+.dropdown-content a:hover {background-color: #898989}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #898989;
+}
 
 		body {
 			margin-top: 300px;
